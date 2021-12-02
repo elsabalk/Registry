@@ -1,0 +1,21 @@
+[
+    {
+      "name": "Baking Tray",
+      "giftPrice": "120",
+      "purchased":"tru"
+      
+    },
+    {
+        "tittle": "Slow Cooker",
+        "giftPrice": "120",
+        "purchased":"tru"
+        
+      },
+      {
+        "tittle": "BLENDER",
+        "giftPrice": "120",
+        "purchased":"tru"
+        
+      }
+  ]
+  
