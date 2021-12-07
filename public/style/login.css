@@ -17,6 +17,14 @@
     font-size: 25px;
     padding-bottom: 0px;
   }
+
+  .h3 {
+    margin-top: 80px;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
   
   .form {
     max-width: 800px;

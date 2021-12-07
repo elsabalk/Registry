@@ -1,16 +1,40 @@
-import React, { Component } from 'react';
-import AccountCreate from './components/AccountCreate';
-import Login from './components/Login';
+import React from 'react';
+import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ProductList from './components/ProductList';
+import Login from './components/Login';
+import AccountCreate from './components/AccountCreate';
+import Main from './components/Main';
+import GuestView from './components/GuestView';
+//import ProductList from './components/ProductList';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-         <ProductList />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="wrapper">
+      
+      <BrowserRouter>
+        <Switch>
+         <Route exact path="/">
+            <Main />
+         </Route>
+         <Route exact path="/accountCreate">
+            <AccountCreate />
+         </Route>
+         <Route exact path="/login">
+            <Login />
+         </Route>
+         <Route exact path="/guestView">
+            <GuestView />
+         </Route>
+         <Route exact path="/registry">
+          <ProductList />
+          </Route>
+
+        </Switch>
+      </BrowserRouter>
+    </div>
+  );
+
 }
 
 export default App;
