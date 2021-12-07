@@ -1,10 +1,11 @@
 const { User, List } = require('../models');
-const 
+const itemSchema = require('../models/Item');
+
 
 const resolvers = {
     Query: {
         lists: () => {
-            return List.find();
+            return itemSchema.find();
           },
     
     },

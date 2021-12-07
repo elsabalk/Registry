@@ -1,7 +1,8 @@
 const { Schema, model } = require('mongoose');
 const bcrypt = require('bcrypt');
-
-const userSchema = new Schema({
+const itemSchema = require("./Item");
+const userSchema = new Schema(
+  {
   username: {
     type: String,
     required: true,
@@ -19,14 +20,18 @@ const userSchema = new Schema({
     required: true,
     minlength: 5,
   },
-  items: [
-    {
-      type: Schema.Types.ObjectId,
-      ref: 'Item',
-    },
-  ],
-});
+  // set savedItem to be an array of data that adheres to the itemSchema
+  savedItem: [itemSchema],
+},
+// set this to use virtual below
+{
+  toJSON: {
+    virtuals: true,
+  },
+}
+);
 
+//hash the user password
 userSchema.pre('save', async function (next) {
   if (this.isNew || this.isModified('password')) {
     const saltRounds = 10;
