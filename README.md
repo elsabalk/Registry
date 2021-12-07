@@ -35,6 +35,8 @@ i can access my registry with a slow internet or no internet connection.
 my registry shows me the last time i saved/edited the registry.
 
 </br>
+
+this is a sample of the link. should be replaced with e
 <p text-align="center">
     <img src="https://img.shields.io/github/languages/count/phillipmerriman/budget-tracker?style=for-the-badge" alt="Languages" />
     <img src="https://img.shields.io/github/languages/top/phillipmerriman/budget-tracker?style=for-the-badge" alt="Top Language" />
@@ -55,8 +57,8 @@ my registry shows me the last time i saved/edited the registry.
 
 * [Installation](#installation)
 * [Usage](#usage)
-    * [Screenshots](#screenshots)
-    * [Snippets](#snippets)
+* [Screenshots](#screenshots)
+* [Snippets](#snippets)
 * [Credits](#credits)
 * [License](#license)
 
@@ -68,28 +70,24 @@ my registry shows me the last time i saved/edited the registry.
 ## Usage
 
 ### Screeshots
+ for this one choose whaever screenshot you need.
+1. Main home page
 
-1. Chart displaying last workout
+![Site](path for the .png)
+
+2. Chart displaying list registry
 
 ![Site](public/assets/chart.PNG)
 
-2. Graph displaying data from the chart
-
-![Site](public/assets/graph.PNG)
 
 
-3. Main home page
 
-![Site](public/assets/main.PNG)
+
 
 ### - - -
 
 
-```javascript
-
-
-  
-    
+```javascript   
 ```
 
 
@@ -97,12 +95,17 @@ my registry shows me the last time i saved/edited the registry.
 
 ### Author
 
-- :octocat: Github: [Elsa](https://github.com/elsabalk)
+- :octocat: Github: [Elsa Balkaran](https://github.com/elsabalk)
 - :octocat: Github: [Isabelle Jacobsen](https://github.com/izzziej)
 - :octocat: Github: [Mohamed Ahmed](https://github.com/Ahmedmh9)
 - :octocat: Github: [Omar Abdirahman](https://github.com/Cumar-khalif)
 - :octocat: Github: [Philip Yang](https://github.com/pcyang57)
-- ![linkedin](public/assets/icons8-linkedin-20.png) LinkedIn: [phillip-merriman-jr](https://www.linkedin.com/in/phillip-merriman-jr-62227485/)
+
+- ![linkedin](public/icons/link-linkedin-20.png) LinkedIn: [Elsa Balkaran](https://www.linkedin.com/in/elsamarie-balkaran-999b6ab3/)
+- ![linkedin](public/icons/link-linkedin-20.png) LinkedIn: [Isabelle Jackobsen](https://www.linkedin.com/in/isabelle-jacobsen-07312a211/)
+- ![linkedin](public/icons/link-linkedin-20.png) LinkedIn: [Mohamed Ahmed](https://www.linkedin.com/in/mohamed-ahmed-613866212/)
+- ![linkedin](public/icons/link-linkedin-20.png) LinkedIn: [Omar Abdirahman](https://www.linkedin.com/in/omar-sheikh-khalif-9352701b9/)
+- ![linkedin](public/icons/link-linkedin-20.png) LinkedIn: [Philip Yang](https://www.linkedin.com/in/phillip-yang-3abab2168/)
 
 ### Built With
 
@@ -114,10 +117,11 @@ my registry shows me the last time i saved/edited the registry.
     <a href=""><img src="some image" alt="Bootstrap" /></a>
     <a href="https://nodejs.org/en/"><img src="some image" alt="Node" /></a>
     <a href=""><img src="some image" alt="Express" /></a>
-    <a href=""><img src="some image" alt="MongoDB" /></a>
+    <a href=""><img src="some image" alt="MongoDB" /></a>TRY
     <a href=""><img src="some Image" alt="Mongoose" /></a>
 </p>
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
