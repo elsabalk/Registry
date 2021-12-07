@@ -8,10 +8,12 @@ const typeDefs = gql`
     password: String
   }
 
-  type List {
-    _id: ID
-    list: String
-    
+  type ProductList {
+    title: String
+    price: String
+    description: String
+    productId: String
+    image: String
   }
 
   
@@ -19,7 +21,7 @@ const typeDefs = gql`
   
 
   type Query {
-    lists: [List]
+    me: User
   }
 
   #type Mutation {
