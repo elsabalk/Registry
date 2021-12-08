@@ -28,10 +28,10 @@ function App() {
          <Route exact path="/login">
             <Login />
          </Route>
-         {/* <GuestView/> */}
-         <Route exact path="/guestView">
+         <GuestView/>
+         {/* <Route exact path="/guestView">
             <GuestView />
-         </Route>
+         </Route> */}
          <Route exact path="/registry">
           <ProductList />
           </Route>
