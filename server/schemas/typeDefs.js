@@ -22,7 +22,6 @@ const typeDefs = gql`
 
   
   type Query {
-    lists: [Item]
     me: User
   }
 
