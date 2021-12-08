@@ -12,7 +12,6 @@ export default function Login() {
       <Headers />
       <input {...register("firstName")} placeholder="Username" />
       <input {...register("lastName")} placeholder="Password" />
-      <p>{result}</p>
       <input type="submit" />
     </form>
   );
