@@ -5,13 +5,15 @@ import Headers from "./LoginHeader.js";
 export default function Login() {
   const { register, handleSubmit } = useForm();
   const [result, setResult] = useState("");
-  const onSubmit = (data) => setResult(JSON.stringify(data));
+  const onSubmit = () => {
+    window.location = './registry';
+  }
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
+    <form onSubmit={handleSubmit(onSubmit) } >
       <Headers />
-      <input {...register("firstName")} placeholder="Username" />
-      <input {...register("lastName")} placeholder="Password" />
+      <input {...register("firstName")} placeholder="Username" required />
+      <input {...register("lastName")} placeholder="Password" required />
       <input type="submit" />
     </form>
   );

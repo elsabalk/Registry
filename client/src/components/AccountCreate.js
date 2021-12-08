@@ -10,11 +10,11 @@ export default function AccountCreate() {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <AccountHeader />
-      <input {...register("firstName")} placeholder="First Name" />
-      <input {...register("lastName")} placeholder="Last Name" />
-      <input {...register("email")} placeholder="Email Address" />
-      <input {...register("username")} placeholder="Username" />
-      <input type="password" {...register("password")} placeholder="Password" />
+      <input {...register("firstName")} placeholder="First Name" required/>
+      <input {...register("lastName")} placeholder="Last Name" required/>
+      <input {...register("email")} placeholder="Email Address" required/>
+      <input {...register("username")} placeholder="Username" required/>
+      <input type="password" {...register("password")} placeholder="Password" required/>
       <input type="submit" />
     </form>
   );
