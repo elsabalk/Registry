@@ -1,5 +1,8 @@
 import React from "react";
 import './Main.css';
+// testing
+import { Link} from 'react-router-dom';
+// ends
 import logo from "../images/lovebirds.ico"
 
 function Main() {
@@ -13,11 +16,18 @@ function Main() {
              {/* Navbar */}
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">
-              <a href="#Main"><li className="nav__items mx__15">Main</li></a>
-              <a href="#Guest View"><li className="nav__items mx__15">Guest View</li></a>
+              {/* <a href="#Main"><li className="nav__items mx__15">Main</li></a> */}
+              <div className="button"><Link to="/login">Sign In</Link></div>
+              <div className="button"><Link to="/guestView"> Look Up a Registry</Link></div>
+              <div className="button"><Link to="/login">Sign In</Link></div>
+              <div className="button"><Link to="/accountCreate">Create an Account</Link></div>
+              {/* <a href="#Guest View"><li className="nav__items mx__15">Guest View</li></a>
               <a href="#Look Up Registry"><li className="nav__items mx__15">Look Up Registry</li></a>
               <a href="#Sign In"><li className="nav__items mx__15">Sign In</li></a>
-              <a href="#Create new Account"><li className="nav__items mx__15">Create new Account</li></a>
+              <a href="#Create new Account"><li className="nav__items mx__15">Create new Account</li></a> */}
+
+              {/* <div className="button"><Link to="/guestView"> Look Up a Registry</Link></div> */}
+
 
             </ul>
           </div>
