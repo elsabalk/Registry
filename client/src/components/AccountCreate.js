@@ -15,8 +15,6 @@ export default function AccountCreate() {
       <input {...register("email")} placeholder="Email Address" />
       <input {...register("username")} placeholder="Username" />
       <input type="password" {...register("password")} placeholder="Password" />
-
-      <p>{result}</p>
       <input type="submit" />
     </form>
   );

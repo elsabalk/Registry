@@ -62,7 +62,7 @@ function ProductList(props) {
                                 <CardBody>
                                     <div style={{ marginBottom: 10 }}>
                                         <h1 className="h1">
-                                            <img style={{ width: 40, height: 40 }} src={"../icons/lovebirds.svg"} alt="lovebirds" />
+                                            <img style={{ width: 100, height: 100 }} src={"../icons/lovebirds.svg"} alt="lovebirds" />
                                             Product List
                                         </h1><br />
                                     </div>
@@ -91,7 +91,7 @@ function ProductList(props) {
                                     </MDBTable><br />
                                     <div style={{ marginBottom: 10 }}>
                                         <h1 className="h1">
-                                            <img style={{ width: 40, height: 40 }} src={"../icons/lovebirds.svg"} alt="lovebirds" />
+                                            <img style={{ width: 100, height: 100 }} src={"../icons/lovebirds.svg"} alt="lovebirds" />
                                             My Registry
                                         </h1>
                                     </div>
