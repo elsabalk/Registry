@@ -4,7 +4,8 @@
   "description": "## user Story As a user  When i am presented with the homepage.  i am able to create a log in. or i can view other users gift registry. I can search products for ideas or add my own. I can create my own registry only if i am logged in. When create a registry, i am provided with a link. I can share the link to other users or guests. As a user i can see, cross out, my registry and or other user's registry when am logged in. when i click on the gift registry, it will take me to an external link(API needed.) where there are lots of gifts i can choose from. when i choose a gift it will be displayed in my registry or basket.",
   "main": "server/server.js",
   "dependencies": {
-    "concurrently": "^6.4.0"
+    "concurrently": "^6.4.0",
+    "dotenv": "^10.0.0"
   },
   "devDependencies": {},
   "scripts": {
