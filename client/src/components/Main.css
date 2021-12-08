@@ -1,0 +1,52 @@
+/* you can replace it to .main__bg  for background. */
+
+body{
+    background-image: url(../images/main.jpg);
+    background-color: #010101;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li.nav__items{
+   font-size: 18px; 
+   padding-bottom: 15px;
+}
+.main__content{
+    padding: 125px 0px;
+}
+.h1.main__text{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: rgba(198, 201, 216, .75)!important;
+}
+h2.main__text{
+    font-size: 54px;
+    line-height: 54px;
+    font-weight: 800;
+    font-family: Montserrat,sans-serif;
+}
+h3.main__text{
+    font-size: 50px;
+    font-weight: 800px;
+    line-height:40px;
+    font-family: Montserrat, sans-serif; 
+ }
+ h4.main__text{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 40px;
+    font-family: Montserrat,sans-serif;
+    
+}
+.header{
+    transition: .4s all ease;
+}
+.header.active{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 30px;
+    background-color: #191919;
+}
