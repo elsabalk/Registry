@@ -27,6 +27,8 @@ function ProductList(props) {
 
     const onHandleSubmit = (id) => {
 
+        alert('Your product has been added below to the registry list');
+
         axios.get('https://fakestoreapi.com/products/' + id)
             .then(response => {
                 setShowData([...showData, { id: response.data.id, title: response.data.title }])
@@ -41,7 +43,7 @@ function ProductList(props) {
     }
 
     const deleteRow = (id) => {
-
+        alert('Your product has been deleted from the registry list');
         console.log(id)
         const updatedBucket = [...showData].filter((item) => item.id !== id);
 
