@@ -4,14 +4,9 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ProductList from './components/ProductList';
 import Login from './components/Login';
 import AccountCreate from './components/AccountCreate';
-import Main from './components/Main'; 
-import GuestView from "./components/GuestView"
-
-//i commented out the original code below. 
-
-// import GuestView from './components/GuestView';
+import Main from './components/Main';
+import GuestView from './components/GuestView';
 //import ProductList from './components/ProductList';
-
 
 function App() {
   return (
@@ -28,10 +23,9 @@ function App() {
          <Route exact path="/login">
             <Login />
          </Route>
-         <GuestView/>
-         {/* <Route exact path="/guestView">
+         <Route exact path="/guestView">
             <GuestView />
-         </Route> */}
+         </Route>
          <Route exact path="/registry">
           <ProductList />
           </Route>
