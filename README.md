@@ -43,8 +43,10 @@ https://enigmatic-everglades-95269.herokuapp.com/
 https://github.com/elsabalk/Registry.git 
 
 ## Snapshot
+![image](https://user-images.githubusercontent.com/85199825/145310246-d0fd54c8-68c4-41cc-aa05-e3d131edc781.png)
+![image](https://user-images.githubusercontent.com/85199825/145310290-26636976-4300-44a7-988e-ff417dce4b67.png)
+![image](https://user-images.githubusercontent.com/85199825/145310336-c4ac4493-0c61-42b5-986c-7236b137c4f7.png)
 
-////////////////////////////////////////////////
 
 ## License
 The project is licensed under MIT
